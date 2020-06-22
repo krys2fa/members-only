@@ -1,0 +1,10 @@
+<h1>Post#index</h1>
+
+<% @posts.each do |p| %>
+  <div class="content">
+    <% if user_signed_in? %>
+      <strong><%= p.user.name %></strong><br />
+    <% end %>
+    <small><%= p.title %></small><br/>
+  </div>
+<% end %>
