@@ -1,6 +1,6 @@
 # members-only
 
-In this Microverse project....
+In this Microverse project, we built an app to implement Rails Authentication.
 
 ## Built With
 
