@@ -20,8 +20,22 @@
   color: white;
 }
 
-.notification {
+.notice {
   margin-bottom: 0;
   background-color: red;
   color: white;
+}
+
+.owner {
+  font-size: 12px;
+  text-align: right;
+  font-weight: 900;
+  color: rgba(0, 17, 255, 0.562);
+}
+
+.post {
+  font-size: 25px;
+  font-weight: 700;
+  color: rgba(0, 225, 255, 0.863);
+  margin-bottom: 40px;
 }
